@@ -5,26 +5,33 @@
 
     </head>
     <body>
-      <h1>Select a library</h1>
+    	<h3 style="color: white; font-family: cursive;"> Load JavaScript libraries on the fly!</h3>
+    	<div class="container">
+			<div  class="library">
+				<select>
+				  	<option value="select">Select JS Library</option>
+				  	<option value="jquery">jQuery</option>
+				  	<option value="yui">YUI</option>
+				  	<option value="prototype">Prototype</option>
+				  	<option value="reactjs">React JS</option>
+				  	<option value="angular">Angular JS</option>
+				  	<option value="backbone">Backbone</option>
+				  	<option value="dojo">Dojo</option>
+					<option value="mootools">MooTools</option>
+					<option value="ext">ExtJS</option>
+					<option value="webfont">WebFont</option>
+					<option value="requirejs">Require JS</option>
+					<option value="underscorejs">Underscore JS</option>
+				</select>
+			</div>
+			
+			<div class="version">
+			  	<select>
+				</select>
+			</div>
 
-      <div  class="library">
-	      <select>
-	      	<option value="jquery">jQuery</option>
-	      	<option>YUI</option>
-	      	<option>bootstrap</option>
-	      	<option>Prototype</option>
-	      	<option>React JS</option>
-	      	<option>Angular JS</option>
-	      	<option>Backbone</option>
-	      </select>
-	  </div>
-	  <div class="version">
-	      	<select>
-
-	      	</select>
-      </div>
-
-      <button id="add"> Load selected Library</button>
+			<button class="add-btn" id="add"> Load selected Library</button>
+    	</div>
     </body>
     
 

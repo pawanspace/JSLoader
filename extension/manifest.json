@@ -1,8 +1,8 @@
 {
-    "name": "__MSG_appName__",
+    "name": "JavaScript Libraries On the fly!",
     "version": "0.0.40",
     "manifest_version": 2,
-    "description": "__MSG_appDescription__",
+    "description": "Load JavaScript libraries to current page on the fly for testing or trying something!",
     "permissions": [
         "tabs","<all_urls>","*://*/*"
     ],
@@ -15,9 +15,15 @@
         ]
     },
     "page_action": {
-        "default_title": "JSLoader",
+        "default_title": "JS Libraries on the fly!",
+        "default_icon" : "icon-16.png",
         "default_popup": "popup.html"
     },
+    "icons": { 
+            "16": "icon-16.png",
+           "48": "icon-48.png",
+          "128": "icon-128.png" },
+
     "content_scripts": [{
         "matches":    ["*://*/*"],
         "js":         ["./scripts/load.js"],
