@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "JSLoader",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Load JS at runtime for chrome dev tools testing",
+    "description": "The description of the application"
+  }
+}
